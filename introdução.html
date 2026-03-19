@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>
+introdução
+</title>
+<meta charset="UTF-8">
+
+<style>
+ body{
+  display: flex;
+  background-color: darkblue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: arial, sans-serif;
+  text-align: center;
+ }
+ 
+ #start_button {
+margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            background-color: lightgreen;
+            color: black;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+
+#start_button:hover {
+
+    background-color: greenyellow
+}
+
+</style>
+</head>
+<body>
+<h1>Bem vindo Ao SHOW!!!!</h1>    
+<p> Espero que goste. </p>
+<button id="start_button"> Começar </button>
+           
+
+
+</body>
+ <script>
+ const start_button = document.getElementById("start_button");
+  start_button.addEventListener("click", () => {
+    window.location.href= "Estudo1.html"
+  });
+
+
+
+
+ </script>
+
+
+
+
+
+
+</html>
